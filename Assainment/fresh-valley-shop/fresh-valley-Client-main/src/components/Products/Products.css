@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+.SingleProduct {
+    width: 23%;
+    float: left;
+    border: 1px solid #efefef;
+    margin: 10px 1%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ProductImage {
+    width: 100%;
+    height: 220px;
+}
+.ProductImage img {
+    height: 190px;
+}
+.ProductName {
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 10px;
+}
+.ProductInfo {
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProductPrice {
+    color: #8fc76b;
+}
+.BuyProduct button {
+    background: #8fc76b;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width: 1130px) {
+    .ProductName h3 {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1090px) {
+    .SingleProduct {
+        width: 31%;
+    }
+    .ProductName h3 {
+        font-size: 15px;
+    }
+}
+@media (max-width: 780px) {
+    .SingleProduct {
+        width: 48%;
+    }
+}
+@media (max-width: 540px) {
+    .SingleProduct {
+        width: 98%;
+    }
+}

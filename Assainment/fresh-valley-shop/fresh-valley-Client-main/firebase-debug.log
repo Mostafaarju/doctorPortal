@@ -1,0 +1,42 @@
+[debug] [2021-06-21T05:03:27.779Z] ----------------------------------------------------------------------
+[debug] [2021-06-21T05:03:27.781Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2021-06-21T05:03:27.782Z] CLI Version:   9.13.1
+[debug] [2021-06-21T05:03:27.782Z] Platform:      darwin
+[debug] [2021-06-21T05:03:27.782Z] Node Version:  v14.16.0
+[debug] [2021-06-21T05:03:27.783Z] Time:          Mon Jun 21 2021 07:03:27 GMT+0200 (Central European Summer Time)
+[debug] [2021-06-21T05:03:27.784Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-21T05:03:27.792Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-21T05:03:27.792Z] > authorizing via signed-in user (mostafaarju@gmail.com)
+[debug] [2021-06-21T05:03:27.793Z] [iam] checking project foodbasket-com for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-06-21T05:03:27.795Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-06-21T05:03:27.795Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-21T05:03:28.063Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 21 Jun 2021 05:03:28 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-21T05:03:28.170Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/foodbasket-com:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-06-21T05:03:29.011Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 21 Jun 2021 05:03:29 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=705","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-21T05:03:29.012Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project foodbasket-com:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2021-06-21T05:03:29.013Z] > refreshing access token with scopes: []
+[debug] [2021-06-21T05:03:29.013Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-06-21T05:03:29.202Z] <<< HTTP RESPONSE 200 {"date":"Mon, 21 Jun 2021 05:03:29 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-06-21T05:03:29.249Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/foodbasket-com [none]
+[debug] [2021-06-21T05:03:29.645Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/foodbasket-com 403
+[debug] [2021-06-21T05:03:29.645Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/foodbasket-com {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-06-21T05:03:29.646Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-06-21T05:03:29.804Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Client.doRequest (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:96:20)
+    at async Object.getFirebaseProject (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:290:21)
+    at async Object.getDefaultHostingSite (/usr/local/lib/node_modules/firebase-tools/lib/getDefaultHostingSite.js:8:21)
+    at async requireHostingSite (/usr/local/lib/node_modules/firebase-tools/lib/requireHostingSite.js:9:18)
+    at async Object.fn (/usr/local/lib/node_modules/firebase-tools/lib/commands/deploy.js:65:9)
+    at async /usr/local/lib/node_modules/firebase-tools/lib/command.js:169:17
+[error] 
+[error] Error: Failed to get Firebase project foodbasket-com. Please make sure the project exists and your account has permission to access it.
