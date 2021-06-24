@@ -1,8 +1,8 @@
-# Rana Agency
+# Wedding Client
 
-## Visit The Live Site [Here](https://rana-agency.web.app/)
+## Visit The Live Site [Here](/)
 
-## Private Detective And Security Service. This is my first complete MERN STACK website.
+## Private Wedding Services. This is my first complete MERN STACK website.
 
 ## In This Project I have covered following feature
 
