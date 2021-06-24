@@ -1,0 +1,14 @@
+.dashboard li {
+  list-style: none;
+  margin-bottom: 35px;
+  font-size: 25px;
+  line-height: 25px;
+}
+.dashboard li span {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr;
+}
+.dashboard svg {
+  height: 25px;
+  width: 30px;
+}

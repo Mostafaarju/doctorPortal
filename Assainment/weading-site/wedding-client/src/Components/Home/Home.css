@@ -1,0 +1,215 @@
+.section-4 {
+  background: #ffebb9;
+  background: rgba(235, 235, 235, 0.67);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+}
+
+.section-4 .heading h1 {
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 60px;
+  color: #ff4545;
+}
+
+.section-4 .heading h1::after {
+  content: '';
+  display: block;
+  /* background: url('../img/border.png'); */
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 45px;
+  width: 100%;
+}
+
+/*============= slide 1 ===============*/
+
+.section-4 .story-content {
+  border: 1px solid #dddddd;
+  box-shadow: 12px 0px 14px -11px #7b7b7b;
+}
+
+.section-4 .story-content img {
+  width: 100%;
+}
+
+.section-4 .story-content .col-xl-6:nth-child(2) {
+  padding: 40px 20px;
+  background: #ffff;
+}
+
+.section-4 .story-content h1 {
+  color: #de013f;
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+}
+
+.section-4 .story-content p {
+  color: #000;
+  font-family: 'Open sans', sans-serif;
+  text-align: left;
+}
+
+.section-4 .date {
+  width: fit-content;
+  font-size: 16px;
+  background: #ffbb76;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+/*========== content slide2 ==============*/
+
+.section-4 .story-content2 {
+  border: 1px solid #dddddd;
+  box-shadow: -12px 0px 14px -11px #7b7b7b;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.section-4 .story-content2 img {
+  width: 100%;
+}
+
+.section-4 .story-content2 .col-xl-6:nth-child(1) {
+  padding: 40px 20px;
+  background: #ffff;
+}
+
+.section-4 .story-content2 h1 {
+  color: #de013f;
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+}
+
+.section-4 .story-content2 p {
+  color: #000;
+  font-family: 'Open sans', sans-serif;
+  text-align: left;
+}
+
+.section-4 .story-content2 .date {
+  width: fit-content;
+  font-size: 16px;
+  background: #ace9ff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*===== content slider3 =========*/
+
+.section-4 .story-content3 {
+  margin-top: 50px;
+  border: 1px solid #dddddd;
+  box-shadow: 12px 0px 14px -11px #7b7b7b;
+}
+
+.section-4 .story-content3 img {
+  width: 100%;
+}
+
+.section-4 .image1 {
+  padding: 10px 5px 5px 10px;
+}
+
+.section-4 .image2 {
+  padding: 10px 10px 5px 5px;
+}
+
+.section-4 .image3 {
+  padding: 5px 5px 10px 10px;
+}
+
+.section-4 .image4 {
+  padding: 5px 10px 10px 5px;
+}
+
+.section-4 .story-content3 .image-container {
+  /* background: url('../img/section3/lightpaperfibers.png'); */
+}
+
+.section-4 .story-content3 .text-container {
+  padding: 40px 20px;
+  background: #ffff;
+}
+
+.section-4 .story-content3 h1 {
+  color: #de013f;
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+}
+
+.section-4 .story-content3 p {
+  color: #000;
+  font-family: 'Open sans', sans-serif;
+  text-align: left;
+}
+
+.section-4 .story-content3 .date {
+  width: fit-content;
+  font-size: 16px;
+  background: #d0ff76;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*============= slide 4 ===============*/
+
+.section-4 .story-content4 {
+  border: 1px solid #dddddd;
+  box-shadow: -12px 0px 14px -11px #7b7b7b;
+  margin-top: 50px;
+}
+
+.section-4 .story-content4 .video-thumb {
+  width: 100%;
+}
+
+.section-4 .video {
+  position: relative;
+}
+
+.play-button {
+  font-size: 60px;
+  color: #ff4545;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatey(-50%);
+  background: transparent;
+  opacity: 0.5;
+}
+
+.video:hover .play-button {
+  opacity: 1;
+}
+
+.section-4 .story-content4 .col-xl-6:nth-child(1) {
+  padding: 40px 20px;
+  background: #ffff;
+}
+
+.section-4 .story-content4 h1 {
+  color: #de013f;
+  font-family: 'Dancing Script', cursive;
+  text-align: left;
+}
+
+.section-4 .story-content4 p {
+  color: #000;
+  font-family: 'Open sans', sans-serif;
+  text-align: left;
+}
+
+.section-4 .story-content4 .date {
+  width: fit-content;
+  font-size: 16px;
+  background: #fd7070;
+  padding: 10px;
+  border-radius: 4px;
+}

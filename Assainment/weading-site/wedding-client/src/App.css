@@ -1,0 +1,58 @@
+input,
+textarea {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px 0;
+  width: 70vw;
+}
+input.btn {
+  max-width: 200px;
+}
+.profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+img {
+  overflow: hidden;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.header-info {
+  padding: 5em;
+  padding-left: 10vw;
+}
+
+.highlights {
+  color: orangered;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.card-item {
+  padding: 1em;
+  transition: box-shadow 1s ease;
+}
+.review-item {
+  padding: 1em;
+  box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+}
+.card-item:hover {
+  box-shadow: 2px 2px 30px 10px rgba(0, 0, 0, 0.2);
+}
+
+thead td {
+  font-weight: bold;
+}
+tbody tr {
+  margin-top: 10px;
+}

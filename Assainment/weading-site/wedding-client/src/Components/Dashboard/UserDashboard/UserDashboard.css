@@ -1,0 +1,43 @@
+#root > div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+nav {
+  height: auto;
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: 1.2fr 4fr;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  padding: 2em;
+  color: #fff;
+  background-color: #777777;
+  height: 100%;
+}
+.body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.body h2 {
+  padding: 10px 30px;
+}
+.mainbody {
+  padding: 30px;
+  background-color: #f8f9fa;
+  flex-grow: 1;
+}
+
+.mainbody p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+li {
+  cursor: pointer;
+}

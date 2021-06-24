@@ -1,0 +1,36 @@
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0 2em;
+}
+nav a {
+  padding: 1em 2em;
+  text-decoration: none;
+  line-height: 60px;
+}
+nav a:nth-child(2) {
+  margin-left: auto;
+}
+nav a:nth-child(7) {
+  margin-left: auto;
+}
+.LUser {
+  padding: 0 15px;
+  color: #111111;
+  font-size: 14px;
+}
+.LUser {
+  position: relative;
+}
+.LUser img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+}
+.LUser span {
+  margin-left: 20px;
+}
