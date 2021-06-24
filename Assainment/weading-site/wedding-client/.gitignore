@@ -3,7 +3,7 @@
 # dependencies
 node_modules/
 .gitignore
-src/Components/Login/Config/
+/src/Components/Login/Config/
 build/
 /.pnp
 .pnp.js
