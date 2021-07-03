@@ -1,0 +1,21 @@
+.testimonials .container {
+  background-image: url(../../../images/quote.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 270px;
+}
+.section-header h4 {
+  color: #6acece;
+}
+.section-header h1 {
+  color: #3a4256;
+  font-size: 4rem;
+}
+.testimonials .card {
+  border-color: transparent;
+}
+
+.testimonials .card .card-footer {
+  background: transparent;
+  border: 0;
+}

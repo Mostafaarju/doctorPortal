@@ -1,0 +1,12 @@
+h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #203047;
+}
+
+.btn-bg {
+  width: 10rem;
+  height: 3rem;
+  background: linear-gradient(45deg, #19d3ae, #0fcfec);
+  color: white;
+}
