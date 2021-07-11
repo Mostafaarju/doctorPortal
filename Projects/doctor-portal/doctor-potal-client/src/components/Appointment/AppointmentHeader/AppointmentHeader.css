@@ -1,0 +1,8 @@
+.react-calendar__tile--active {
+  background: linear-gradient(45deg, #19d3ae, #0fcfec);
+  color: white;
+}
+.react-calendar__tile--active:hover {
+  background: linear-gradient(45deg, #1fd1ae, #19c3dd) !important;
+  color: white;
+}
